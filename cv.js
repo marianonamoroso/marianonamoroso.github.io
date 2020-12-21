@@ -67,6 +67,7 @@ class UI {
                 Here more links:</br>
                 <a href="https://www.linkedin.com/in/marianonamoroso"> linkedin </a></br>
                 <a href="https://github.com/marianonamoroso"> github </a></br>
+                <a href="https://twitter.com/MarianAmoroso"> twitter </a></br>
                 <a href="https://protectyourflag.com"> protectyourflag </a>
                 
             </div>
@@ -533,7 +534,7 @@ document.getElementById('btn-exp')
         /* MB */
          title = "Information Security Analyst";
          company = "Mercedes-Benz Financial Services";
-         role = "Identity and Access Management (IAM). Also, assets and vulnerability Management";
+         role = "Identity and Access Management (IAM). Also, assets and Vulnerability Management";
          start = "03/2017";
          end = "01/2018";
          exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
