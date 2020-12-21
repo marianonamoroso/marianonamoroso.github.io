@@ -244,7 +244,7 @@ document.getElementById('btn-skill')
     .addEventListener('click', function(e){
         
         let hard = "Pentesting, Red Teaming, Ethical Hacking & Digital Forensics.";
-        let offensivesec = "Burp Suite Pro, Metasploit, Nessus, Acunetix & Metasploit.";
+        let offensivesec = "Burp Suite Pro, Metasploit, Nessus, Acunetix & Maltego.";
         let isec = "SIEM, IPS, DDoS, WAF, IPS & AV";
         let forensic = "AXIOM, CAINE, FTK, Autopsy, DD & Volatility";
         let soft = "Collaborative, Proactive, Agile, Detail-orientated & Customer-centric.";
