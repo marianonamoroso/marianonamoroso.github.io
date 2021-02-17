@@ -274,9 +274,9 @@ document.getElementById('btn-courses')
     
     ui.showCourse(course);
 
-    let title = "AX200 Magnet AXIOM Examination"
-    let year = "2020"
-    let course = new Course(title.fontcolor("lightblue").bold(),  year.fontcolor("white"));
+    title = "AX200 Magnet AXIOM Examination"
+    year = "2020"
+    course = new Course(title.fontcolor("lightblue").bold(),  year.fontcolor("white"));
 
     ui.showCourse(course);
 
@@ -414,10 +414,10 @@ document.getElementById('btn-certs')
 
         ui.showCert(cert);
 
-        let short = "OSCP";
-        let title = "Offensive Security Certified Professional"
-        let year = "2019"
-        let cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
+        short = "OSCP";
+        title = "Offensive Security Certified Professional"
+        year = "2019"
+        cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
 
         ui.showCert(cert);
 
