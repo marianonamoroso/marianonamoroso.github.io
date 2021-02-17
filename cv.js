@@ -267,6 +267,12 @@ document.getElementById('btn-skill')
 document.getElementById('btn-courses')
 .addEventListener('click', function(e){
     ui.deleteNodes();
+    
+    let title = "AWS Cloud Practitioner Essentials"
+    let year = "2021"
+    let course = new Course(title.fontcolor("lightblue").bold(),  year.fontcolor("white"));
+    
+    ui.showCourse(course);
 
     let title = "AX200 Magnet AXIOM Examination"
     let year = "2020"
