@@ -379,18 +379,39 @@ document.getElementById('btn-courses')
 document.getElementById('btn-certs')
     .addEventListener('click', function(e){
         ui.deleteNodes();
+    
+        let short = "AWS CLF";
+        let title = "AWS Certified Cloud Practitioner"
+        let year = "2021"
+        let cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
+
+        ui.showCert(cert);
+    
+        short = "PCAP";
+        title = "Certified Associate in Python"
+        year = "2020"
+        cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
+
+        ui.showCert(cert);
+
+        short = "PCEP";
+        title = "Certified Entry-Level in Python"
+        year = "2020"
+        cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
+
+        ui.showCert(cert);
+    
+        short = "OSWP";
+        title = "Offensive Security Wireless Professional"
+        year = "2020"
+        cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
+
+        ui.showCert(cert);
 
         let short = "OSCP";
         let title = "Offensive Security Certified Professional"
         let year = "2019"
         let cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
-
-        ui.showCert(cert);
-
-        short = "OSWP";
-        title = "Offensive Security Wireless Professional"
-        year = "2020"
-        cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
 
         ui.showCert(cert);
 
@@ -439,20 +460,6 @@ document.getElementById('btn-certs')
         short = "CCNA RS";
         title = "Cisco Certified Network Associate Routing & Switching"
         year = "2016"
-        cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
-
-        ui.showCert(cert);
-
-        short = "PCAP";
-        title = "Certified Associate in Python"
-        year = "2020"
-        cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
-
-        ui.showCert(cert);
-
-        short = "PCEP";
-        title = "Certified Entry-Level in Python"
-        year = "2020"
         cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
 
         ui.showCert(cert);
