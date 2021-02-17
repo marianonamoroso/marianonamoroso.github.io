@@ -244,7 +244,7 @@ document.getElementById('btn-hobbies')
 document.getElementById('btn-skill')
     .addEventListener('click', function(e){
         
-        let hard = "Incident Response, Digital Forensics & Pentesting.";
+        let hard = "Information Security, Incident Response, Digital Forensics & Pentesting.";
         let offensivesec = "Burp Suite Pro, Metasploit, Nessus, Acunetix & Maltego.";
         let isec = "SIEM, IPS, DDoS, WAF, IPS & AV";
         let forensic = "AXIOM, CAINE, FTK, Autopsy, DD & Volatility";
