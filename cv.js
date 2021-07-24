@@ -244,7 +244,7 @@ document.getElementById('btn-hobbies')
 document.getElementById('btn-skill')
     .addEventListener('click', function(e){
         
-        let hard = "Cloud Computing, Network Security and Digital Forensics.";
+        let hard = "Cloud Computing, Network Security and Incident Response.";
         let devops = "AWS, Terraform, Docker, Kubernetes & Datadog.";
         let isec = "SIEM, IAM, DDoS, WAF, IPS, FW & AV";
         let net = "HTTP/S, API, DNS, SSH, SMB, FTP";
@@ -268,9 +268,15 @@ document.getElementById('btn-courses')
 .addEventListener('click', function(e){
     ui.deleteNodes();
 
-    let title = "AWS Developer - Associate"
+    let title = "AWS SysOps Administrator - Associate"
     let year = "2021"
     let course = new Course(title.fontcolor("lightblue").bold(),  year.fontcolor("white"));
+
+    ui.showCourse(course);
+
+    title = "AWS Developer - Associate"
+    year = "2021"
+    course = new Course(title.fontcolor("lightblue").bold(),  year.fontcolor("white"));
 
     ui.showCourse(course);
 
@@ -404,19 +410,19 @@ document.getElementById('btn-certs')
     .addEventListener('click', function(e){
         ui.deleteNodes();
         let short = "AWS DVA";
-        let title = "AWS Certified Developer - Associate"
+        let title = "AWS Certified SysOps Administrator - Associate"
         let year = "2021"
         let cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
 
         ui.showCert(cert);
 
-        short = "HCTA";
-        title = "HashiCorp Certified: Terraform Associate"
+        short = "AWS DVA";
+        title = "AWS Certified Developer - Associate"
         year = "2021"
         cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
 
         ui.showCert(cert);
-       
+     
         short = "AWS SAA";
         title = "AWS Certified Solutions Architect - Associate"
         year = "2021"
@@ -434,6 +440,13 @@ document.getElementById('btn-certs')
         short = "PCAP";
         title = "Certified Associate in Python"
         year = "2020"
+        cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
+
+        ui.showCert(cert);
+
+        short = "HCTA";
+        title = "HashiCorp Certified: Terraform Associate"
+        year = "2021"
         cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
 
         ui.showCert(cert);
