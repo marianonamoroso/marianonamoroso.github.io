@@ -409,7 +409,7 @@ document.getElementById('btn-courses')
 document.getElementById('btn-certs')
     .addEventListener('click', function(e){
         ui.deleteNodes();
-        let short = "AWS DVA";
+        let short = "AWS SOA";
         let title = "AWS Certified SysOps Administrator - Associate"
         let year = "2021"
         let cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
