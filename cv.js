@@ -437,16 +437,16 @@ document.getElementById('btn-certs')
 
         ui.showCert(cert);
 
-        short = "PCAP";
-        title = "Certified Associate in Python"
-        year = "2020"
-        cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
-
-        ui.showCert(cert);
-
         short = "HCTA";
         title = "HashiCorp Certified: Terraform Associate"
         year = "2021"
+        cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
+
+        ui.showCert(cert);
+	
+	short = "PCAP";
+        title = "Certified Associate in Python"
+        year = "2020"
         cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
 
         ui.showCert(cert);
