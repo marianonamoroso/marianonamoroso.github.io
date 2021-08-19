@@ -244,7 +244,7 @@ document.getElementById('btn-hobbies')
 document.getElementById('btn-skill')
     .addEventListener('click', function(e){
         
-        let hard = "Cloud Computing, Network Security and Incident Response.";
+        let hard = "Cloud Computing, Cyber Security and Digital Forensics.";
         let devops = "AWS, Terraform, Docker, Kubernetes & Datadog.";
         let isec = "SIEM, IAM, DDoS, WAF, IPS, FW & AV";
         let net = "HTTP/S, API, DNS, SSH, SMB, FTP";
@@ -577,7 +577,16 @@ document.getElementById('btn-exp')
         let exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
 
         ui.showExp(exp);
-
+        
+	/* PJN */
+        title = "Digital Forensic Expert";
+        company = "PJN";
+        role = "Extract information from digital assets in order to analyze the evidence, draw conclusions and prepare the relevant reports based on best practices, for subsequent presentation to a court.";
+        start = "10/2015";
+        end = "Present";
+        exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
+        ui.showExp(exp);
+	
         /* KCC */
         title = "ITS Incident Response";
         company = "Kimberly Clark";
@@ -588,16 +597,7 @@ document.getElementById('btn-exp')
 
         ui.showExp(exp);
         
-        /* PJN */
-        title = "Digital Forensic Expert";
-        company = "PJN";
-        role = "Extract information from digital assets in order to analyze the evidence, draw conclusions and prepare the relevant reports based on best practices, for subsequent presentation to a court.";
-        start = "10/2015";
-        end = "Present";
-        exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
-        ui.showExp(exp);
-
-        /* BA-CSIRT */
+	/* BA-CSIRT */
         title = "Information Security Leader";
         company = "BA-CSIRT";
         role = "Perform pentesting and vulnerability assessments in webs, ws, infra and mobile. Also, engineering, implementing and monitoring security measures for the protection of computer systems, networks and information."
