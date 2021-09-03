@@ -576,9 +576,9 @@ document.getElementById('btn-exp')
     .addEventListener('click', function(e){
         ui.deleteNodes();
         /* Caylent */
-        let title = "Cloud Platform Administrator";
+        let title = "DevSecOps Engineer";
         let company = "Caylent";
-        let role = "Provide monitoring of Caylent's clients' cloud-native production environments, active response based on generated alerts and utilize set troubleshooting procedures to determine the cause.";
+        let role = "Involved in Initial Implementation, Integration, and Automation of the InfoSec Objectives identified to improve the Security and/or Compliance Posture of a Customer’s Environments and Cloud Infrastructure.";
         let start = "03/2021";
         let end = "Present";
         let exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
