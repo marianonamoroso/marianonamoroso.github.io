@@ -578,7 +578,7 @@ document.getElementById('btn-exp')
         /* Caylent */
         let title = "DevSecOps Engineer";
         let company = "Caylent";
-        let role = "Involved in Initial Implementation, Integration, and Automation of the InfoSec Objectives identified to improve the Security and/or Compliance Posture of a Customer’s Environments and Cloud Infrastructure.";
+        let role = "Involved in initial implementation, integration, and automation of the infosec objectives identified to improve the security and/or compliance posture of a customer’s environments and cloud infrastructure.";
         let start = "03/2021";
         let end = "Present";
         let exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
