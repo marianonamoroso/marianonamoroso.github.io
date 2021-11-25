@@ -536,13 +536,23 @@ document.getElementById('btn-certs')
 document.getElementById('btn-edu')
     .addEventListener('click', function(e){
         ui.deleteNodes();
-
-        let title = "Information Security Specialist";
-        let grade = "Postgraduate"
+	
+	let title = "Information Security";
+        let grade = "Master"
         let uni = "UBA";
-        let start = "2019";
-        let end = "2020";
+        let start = "2020";
+        let end = "WIP (Thesis)";
         let edu = new Education(title.fontcolor("lightblue").bold(),uni.fontcolor("white"),grade.fontcolor("white"),
+        start.fontcolor("white"),end.fontcolor("white"));
+       
+        ui.showEdu(edu);
+
+        title = "Information Security Specialist";
+        grade = "Postgraduate"
+        uni = "UBA";
+        start = "2019";
+        end = "2020";
+        edu = new Education(title.fontcolor("lightblue").bold(),uni.fontcolor("white"),grade.fontcolor("white"),
         start.fontcolor("white"),end.fontcolor("white"));
        
         ui.showEdu(edu);
