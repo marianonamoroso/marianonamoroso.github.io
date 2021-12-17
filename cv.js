@@ -244,7 +244,7 @@ document.getElementById('btn-hobbies')
 document.getElementById('btn-skill')
     .addEventListener('click', function(e){
         
-        let hard = "Cloud Computing, Cyber Security and Digital Forensics.";
+        let hard = "Cloud, Security, Automation, Code and Scripting.";
         let devops = "AWS, Terraform, Docker, Kubernetes & Datadog.";
         let isec = "SIEM, IAM, DDoS, WAF, IPS, FW & AV";
         let net = "HTTP/S, API, DNS, SSH, SMB, FTP";
