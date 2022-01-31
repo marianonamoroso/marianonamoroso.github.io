@@ -268,9 +268,20 @@ document.getElementById('btn-courses')
 .addEventListener('click', function(e){
     ui.deleteNodes();
 
-    let title = "AWS SysOps Administrator - Associate"
-    let year = "2021"
+    let title = "Kuberentes Administrator"
+    let year = "2022"
     let course = new Course(title.fontcolor("lightblue").bold(),  year.fontcolor("white"));
+
+    ui.showCourse(course);
+    title = "Kuberentes Developer"
+    year = "2021"
+    course = new Course(title.fontcolor("lightblue").bold(),  year.fontcolor("white"));
+
+    ui.showCourse(course);
+
+    title = "AWS SysOps Administrator - Associate"
+    year = "2021"
+    course = new Course(title.fontcolor("lightblue").bold(),  year.fontcolor("white"));
 
     ui.showCourse(course);
 
@@ -600,7 +611,7 @@ document.getElementById('btn-exp')
         company = "PJN";
         role = "Extract information from digital assets in order to analyze the evidence, draw conclusions and prepare the relevant reports based on best practices, for subsequent presentation to a court.";
         start = "10/2015";
-        end = "Present";
+        end = "12/2021";
         exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
         ui.showExp(exp);
 	
