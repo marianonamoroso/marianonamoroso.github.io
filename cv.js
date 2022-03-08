@@ -419,10 +419,17 @@ document.getElementById('btn-courses')
 document.getElementById('btn-certs')
     .addEventListener('click', function(e){
         ui.deleteNodes();
-        let short = "CKAD";
-        let title = "Certified Kubernetes Application Developer"
-        let year = "2021"
+	let short = "CKA";
+        let title = "Certified Kubernetes Administrator"
+        let year = "2022"
         let cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
+
+        ui.showCert(cert);
+	
+        short = "CKAD";
+        title = "Certified Kubernetes Application Developer"
+        year = "2021"
+        cert = new Certification(short.fontcolor("lightblue").bold(), title.fontcolor("white"),  year.fontcolor("white"));
 
         ui.showCert(cert);
 
