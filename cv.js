@@ -609,17 +609,15 @@ document.getElementById('btn-exp')
         let start = "03/2022";
         let end = "Present";
         let exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
-
         ui.showExp(exp);
 	
         /* Caylent */
-        let title = "DevSecOps Engineer";
-        let company = "Caylent";
-        let role = "Involved in initial implementation, integration, and automation of the infosec objectives identified to improve the security and/or compliance posture of a customer’s environments and cloud infrastructure.";
-        let start = "03/2021";
-        let end = "03/2022";
-        let exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
-
+        title = "DevSecOps Engineer";
+        company = "Caylent";
+        role = "Involved in initial implementation, integration, and automation of the infosec objectives identified to improve the security and/or compliance posture of a customer’s environments and cloud infrastructure.";
+        start = "03/2021";
+        end = "03/2022";
+        exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
         ui.showExp(exp);
         
 	/* PJN */
@@ -638,7 +636,6 @@ document.getElementById('btn-exp')
         start = "08/2020";
         end = "04/2021";
         exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
-
         ui.showExp(exp);
         
 	/* BA-CSIRT */
@@ -657,7 +654,7 @@ document.getElementById('btn-exp')
          start = "03/2017";
          end = "01/2018";
          exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
-        ui.showExp(exp);
+         ui.showExp(exp);
 
 
         /* Xelere */
@@ -667,7 +664,7 @@ document.getElementById('btn-exp')
          start = "07/2016";
          end = "02/2017";
          exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
-        ui.showExp(exp);
+         ui.showExp(exp);
 
         /* How Know IT */
          title = "Software Engineer";
@@ -676,8 +673,7 @@ document.getElementById('btn-exp')
          start = "06/2014";
          end = "10/2015";
          exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
-        ui.showExp(exp);
-
+         ui.showExp(exp);
 
         e.preventDefault();
 });
