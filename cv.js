@@ -244,9 +244,9 @@ document.getElementById('btn-skill')
     .addEventListener('click', function(e){
         
         let hard = "Cloud, Security, Automation, Coding and Scripting.";
-        let devops = "AWS, Terraform, Docker, Kubernetes & Datadog.";
+        let devops = "AWS, Terraform, Docker, Kubernetes, Helm, CI/CD & Datadog.";
         let isec = "SIEM, IAM, DDoS, WAF, IPS, FW & AV";
-        let net = "HTTP/S, API, DNS, SSH, SMB, FTP";
+        let net = "HTTP/S, API, DNS, SSH, VPN";
         let soft = "Collaborative, Proactive, Agile, Detail-orientated & Customer-centric.";
         let script = "bash & python.";
         let standard = "OWASP, BCRA & ISO.";
