@@ -248,7 +248,7 @@ document.getElementById('btn-skill')
         let isec = "SIEM, IAM, DDoS, WAF, IPS, FW & AV";
         let net = "HTTP/S, API, DNS, SSH, VPN";
         let soft = "Collaborative, Proactive, Agile, Detail-orientated & Customer-centric.";
-        let script = "bash & python.";
+        let script = "Bash & Python.";
         let standard = "OWASP, BCRA & ISO.";
         let language = "English & Spanish.";
         let skill = new Skill(hard.fontcolor("white"), soft.fontcolor("white"),  devops.fontcolor("white"),
