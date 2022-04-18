@@ -249,7 +249,7 @@ document.getElementById('btn-skill')
         let net = "HTTP/S, API, DNS, SSH, VPN";
         let soft = "Collaborative, Proactive, Agile, Detail-orientated & Customer-centric.";
         let script = "Bash & Python.";
-        let standard = "OWASP, BCRA & ISO.";
+        let standard = "NIST, OWASP, BCRA & ISO.";
         let language = "English & Spanish.";
         let skill = new Skill(hard.fontcolor("white"), soft.fontcolor("white"),  devops.fontcolor("white"),
         isec.fontcolor("white"), net.fontcolor("white"),
