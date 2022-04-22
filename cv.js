@@ -243,13 +243,13 @@ document.getElementById('btn-hobbies')
 document.getElementById('btn-skill')
     .addEventListener('click', function(e){
         
-        let hard = "Cloud, Security, Automation, Coding and Scripting.";
-        let devops = "AWS, Terraform, Docker, Kubernetes, Helm, CI/CD & Datadog.";
-        let isec = "SIEM, IAM, DDoS, WAF, IPS, FW & AV";
+        let hard = "DevOps, Cloud Security & Scripting.";
+        let devops = "AWS, Terraform, Docker, Kubernetes, Helm, GitLab, GitHub Actions & Datadog.";
+        let isec = "SIEM, IAM, DDoS, WAF, IPS & FW";
         let net = "HTTP/S, API, DNS, SSH, VPN";
-        let soft = "Collaborative, Proactive, Agile, Detail-orientated & Customer-centric.";
+        let soft = "Collaborative, Proactive, Agile, Detail-Orientated & Customer-Centric.";
         let script = "Bash & Python.";
-        let standard = "NIST, OWASP, BCRA & ISO.";
+        let standard = "NIST, ISO & OWASP.";
         let language = "English & Spanish.";
         let skill = new Skill(hard.fontcolor("white"), soft.fontcolor("white"),  devops.fontcolor("white"),
         isec.fontcolor("white"), net.fontcolor("white"),
