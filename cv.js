@@ -603,7 +603,7 @@ document.getElementById('btn-exp')
     .addEventListener('click', function(e){
         ui.deleteNodes();
 	 /* Ripio */
-        let title = "DevOps Architect";
+        let title = "DevOps Lead";
         let company = "Ripio";
         let role = "";
         let start = "03/2022";
