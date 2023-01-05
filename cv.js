@@ -602,13 +602,22 @@ document.getElementById('btn-edu')
 document.getElementById('btn-exp')
     .addEventListener('click', function(e){
         ui.deleteNodes();
-	 /* Ripio */
-        let title = "DevOps Lead";
-        let company = "Ripio";
+	/* PYF */
+        let title = "DevOps Consultant";
+        let company = "PYF";
         let role = "";
-        let start = "03/2022";
+        let start = "12/2022";
         let end = "Present";
         let exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
+        ui.showExp(exp);
+	
+	 /* Ripio */
+        title = "DevOps Lead";
+        company = "Ripio";
+        role = "";
+        start = "03/2022";
+        end = "12/2022";
+        exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
         ui.showExp(exp);
 	
         /* Caylent */
