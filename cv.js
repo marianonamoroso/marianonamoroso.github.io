@@ -621,7 +621,7 @@ document.getElementById('btn-exp')
         ui.showExp(exp);
 	
 	 /* Ripio */
-        title = "DevOps Lead";
+        title = "DevOps Architect & DevOps Lead";
         company = "Ripio";
         role = "";
         start = "03/2022";
