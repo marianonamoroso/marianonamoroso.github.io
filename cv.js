@@ -611,15 +611,6 @@ document.getElementById('btn-exp')
         let exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
         ui.showExp(exp);
 	
-	/* PYF */
-        title = "DevOps Consultant";
-        company = "PYF";
-        role = "";
-        start = "12/2022";
-        end = "02/2023";
-        exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
-        ui.showExp(exp);
-	
 	 /* Ripio */
         title = "DevOps Architect & DevOps Lead";
         company = "Ripio";
