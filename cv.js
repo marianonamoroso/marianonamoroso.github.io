@@ -243,8 +243,8 @@ document.getElementById('btn-hobbies')
 document.getElementById('btn-skill')
     .addEventListener('click', function(e){
         
-        let hard = "DevOps, Cloud Security & Scripting.";
-        let devops = "AWS, Terraform, Docker, Kubernetes, Helm, GitLab, GitHub Actions & Datadog.";
+        let hard = "Cloud, Security & Scripting.";
+        let devops = "AWS, Terraform, Docker, Kubernetes, Kustomize, Helm, GitLab, GitHub Actions, Bitbucket, ArgoCD & Datadog.";
         let isec = "SIEM, IAM, DDoS, WAF, IPS & FW";
         let net = "HTTP/S, API, DNS, SSH, VPN";
         let soft = "Collaborative, Proactive, Agile, Detail-Orientated & Customer-Centric.";
