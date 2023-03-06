@@ -225,7 +225,7 @@ document.getElementById('btn-hobbies')
 
         ui.showHobby(hb);
         
-        name = "Gaming";
+        name = "Reading";
         hb = new Hobby(name.fontcolor("white"));
 
         ui.showHobby(hb);
