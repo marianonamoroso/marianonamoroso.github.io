@@ -602,13 +602,22 @@ document.getElementById('btn-edu')
 document.getElementById('btn-exp')
     .addEventListener('click', function(e){
         ui.deleteNodes();
-	/* D24 */
-        let title = "DevOps Engineer";
-        let company = "Directa24";
-        let role = "";
-        let start = "02/2023";
+	/* POSTA */
+        let title = "Founder & Tech Lead";
+        let company = "POSTA";
+        let role = "Founder of a B2B SaaS for franchise operations management. Architecture, development and product (Next.js, TypeScript, Supabase, Vercel, PWA, Claude API). Delivery integrations (Rappi, PedidosYa) and LLM-based document processing.";
+        let start = "03/2024";
         let end = "Present";
         let exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
+        ui.showExp(exp);
+
+	/* D24 */
+        title = "DevOps Engineer";
+        company = "Directa24";
+        role = "";
+        start = "02/2023";
+        end = "12/2023";
+        exp = new Experience(title.fontcolor("white"), company.fontcolor("lightblue").bold(), role.fontcolor("gray"), start.fontcolor("white"), end.fontcolor("white"));
         ui.showExp(exp);
 	
 	 /* Ripio */
